@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="assets\Projects\style1.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" onclick="showProject('project1')" class="nav-link">Project 1</a>
+        <a href="#" onclick="showProject('project2')" class="nav-link">Project 2</a>
+    </nav>
+
+    <!-- Project Sections -->
+    <div class="container">
+        <!-- Project 1 Details -->
+        <section id="project1" class="project-details active">
+            <h1>SMS Spam Classification</h1>
+            <p>The SMS Spam Classification project is a machine learning-based application designed to distinguish
+                between spam and legitimate (ham) text messages. This classification system is crucial for enhancing
+                user experience by filtering out unwanted, potentially harmful messages and allowing only valuable,
+                relevant communications to reach users. The model is trained on a labeled dataset of SMS messages, where
+                each message is categorized as either "spam" or "ham." By utilizing natural language processing (NLP)
+                techniques and machine learning algorithms, this project builds an accurate classifier that
+                automatically identifies spam messages based on word patterns, frequency, and context. The end goal is
+                to create a robust, scalable model that can efficiently process large volumes of messages in real-time,
+                enhancing the reliability of spam filtering in messaging applications.</p>
+            <h2>What I’ve Done</h2>
+            <p>
+                In this project, I developed an ensemble learning model for SMS Spam Classification that achieved a high
+                accuracy of 98.12%. The model combines multiple algorithms, including Support Vector Machine (SVM),
+                Multinomial Naive Bayes (MNB), and Extra Trees Classifier (ETC), to enhance predictive performance by
+                capturing a broader range of spam patterns and features. This ensemble approach proved to be highly
+                effective, outperforming individual classifiers.
+
+                Additionally, I authored and published a research paper on this project with IEEE, detailing the
+                methodology, experimental results, and the model’s comparative advantage. The publication highlights the
+                significance of this work for improving SMS spam detection systems, as well as the potential for further
+                applications in spam filtering and content moderation.</p>
+            <h2>Benefits</h2>
+            <ul>
+                <li>Increased Security</li>
+                <li>Academic and Industry Recognition</li>
+                <li>Cost Savings for Service Providers</li>
+                <li>Adaptability to New Spam Patterns</li>
+                <li>Scalable and Efficient Filtering</li>
+            </ul>
+            <h2>Project Images</h2>
+            <div class="images">
+                <img src="assets\Projects\Screenshot 2024-10-26 193138.png" alt="Project 1 Screenshot 1">
+                <img src="assets\Projects\Screenshot 2024-10-26 193211.png" alt="Project 1 Screenshot 2">
+                <img src="assets\Projects\Screenshot 2024-10-26 194450.png" alt="Project 1 Screenshot 3">
+            </div>
+            <div class="project-links">
+                <a href="https://ayush1234871.github.io/Algo-Hub/" target="_blank" class="btn">View Live Project</a>
+                <a href="https://github.com/Ayush1234871/SMS-classifier" target="_blank" class="btn">View on
+                    GitHub</a>
+            </div>
+        </section>
+
+
+
+        <!-- Project 2 Details -->
+        <section id="project2" class="project-details">
+            <h1>Sentiment Analysis On Amazon Alexa Product</h1>
+            <p>This project is focused on analyzing user reviews for the Amazon Alexa product, utilizing machine
+                learning techniques to understand customer sentiment. By examining reviews, the project aims to identify
+                patterns and classify each review’s sentiment as either positive or negative. This information can be
+                valuable for Amazon or developers to understand user satisfaction and to pinpoint areas for improvement.
+            </p>
+            <h2>What I’ve Done</h2>
+            <p>
+            <h4>Data Preprocessing and Cleaning:</h4>
+            Collected and cleaned Amazon Alexa review data, removing noise like punctuation, special characters, and
+            stop words to improve data quality.
+            Standardized text by tokenizing and converting it into a machine-readable format using techniques like
+            TF-IDF or word embeddings.
+
+            <h4>Model Development:</h4>
+            Experimented with several machine learning algorithms, such as Logistic Regression, Naive Bayes, and
+            Support Vector Machine, to identify the most accurate model for sentiment classification.
+            Implemented and fine-tuned the best-performing model to maximize accuracy and minimize false
+            classifications.
+
+            <h4>Sentiment Classification:</h4>
+            Trained the model to categorize reviews as either positive or negative, achieving high classification
+            accuracy.
+            Used techniques like cross-validation to ensure the model’s robustness and reliability in handling
+            real-world review data.
+
+            <h4>Insights and Visualization:</h4>
+            Analyzed sentiment trends within customer reviews to gain insights into the general perception of Amazon
+            Alexa.
+            Visualized the distribution of sentiments using charts and graphs to highlight customer satisfaction and
+            potential areas for improvement.
+
+            <h4>Performance Evaluation:</h4>
+            Measured the model’s performance using evaluation metrics such as accuracy, precision, recall, and
+            F1-score to confirm its reliability in real-world applications.
+            Improved the model iteratively by testing different configurations, leading to an optimized model
+            capable of effectively classifying sentiment.
+            </p>
+
+            <h2>Project Images</h2>
+            <div class="images">
+                <img src="assets\Projects\Screenshot 2024-10-29 094359.png" alt="Project 2 Screenshot 1">
+                <img src="assets\Projects\Screenshot 2024-10-29 094447.png" alt="Project 2 Screenshot 2">
+                <img src="assets\Projects\Screenshot 2024-10-29 094522.png" alt="Project 2 Screenshot 2">
+            </div>
+            <div class="project-links">
+                <a href="https://live-project2-link.com" target="_blank" class="btn">View Live Project</a>
+                <a href="https://github.com/Ayush1234871/Newsmonkey" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets\Projects\script1.js"></script>
+</body>
+
+</html>
